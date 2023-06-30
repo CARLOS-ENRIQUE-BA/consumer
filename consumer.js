@@ -22,7 +22,7 @@ async function connect() {
         console.log(messageContent);
         try {
             const response = await fetch('http://52.21.3.207:3003/products/', {
-            method: 'post',
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
                 "Accept": "application/json"
